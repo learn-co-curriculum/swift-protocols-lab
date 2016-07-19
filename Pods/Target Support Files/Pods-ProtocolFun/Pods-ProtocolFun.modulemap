@@ -1,0 +1,6 @@
+framework module Pods_ProtocolFun {
+  umbrella header "Pods-ProtocolFun-umbrella.h"
+
+  export *
+  module * { export * }
+}
