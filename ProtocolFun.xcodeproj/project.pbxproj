@@ -14,6 +14,7 @@
 		5BC254341D3EC5A80054AE5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BC254331D3EC5A80054AE5A /* Assets.xcassets */; };
 		5BC254371D3EC5A80054AE5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BC254351D3EC5A80054AE5A /* LaunchScreen.storyboard */; };
 		5BC254421D3EC5A80054AE5A /* ProtocolFunTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC254411D3EC5A80054AE5A /* ProtocolFunTests.swift */; };
+		5BEE35DF1D3EC7F000176D83 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEE35DE1D3EC7F000176D83 /* Person.swift */; };
 		7B5ECD7AD531D30EE9DFE76A /* Pods_ProtocolFunTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAE4797E9017DB96FDA8B612 /* Pods_ProtocolFunTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +40,7 @@
 		5BC2543D1D3EC5A80054AE5A /* ProtocolFunTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProtocolFunTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BC254411D3EC5A80054AE5A /* ProtocolFunTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolFunTests.swift; sourceTree = "<group>"; };
 		5BC254431D3EC5A80054AE5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BEE35DE1D3EC7F000176D83 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		AF08D4C74A3E94555FD90351 /* Pods-ProtocolFunTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProtocolFunTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ProtocolFunTests/Pods-ProtocolFunTests.release.xcconfig"; sourceTree = "<group>"; };
 		B268AEC0E9490F056A511B6B /* Pods_ProtocolFun.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProtocolFun.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4B5C13973936DD2219089E9 /* Pods-ProtocolFunTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProtocolFunTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ProtocolFunTests/Pods-ProtocolFunTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -90,6 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				5BC2542E1D3EC5A80054AE5A /* ViewController.swift */,
+				5BEE35DE1D3EC7F000176D83 /* Person.swift */,
 				5BC2544C1D3EC5B90054AE5A /* Supporting Files */,
 			);
 			path = ProtocolFun;
@@ -98,8 +101,7 @@
 		5BC254401D3EC5A80054AE5A /* ProtocolFunTests */ = {
 			isa = PBXGroup;
 			children = (
-				5BC254411D3EC5A80054AE5A /* ProtocolFunTests.swift */,
-				5BC254431D3EC5A80054AE5A /* Info.plist */,
+				5BEE35DD1D3EC6FF00176D83 /* Test Supporting Files */,
 			);
 			path = ProtocolFunTests;
 			sourceTree = "<group>";
@@ -114,6 +116,15 @@
 				5BC254381D3EC5A80054AE5A /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5BEE35DD1D3EC6FF00176D83 /* Test Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5BC254411D3EC5A80054AE5A /* ProtocolFunTests.swift */,
+				5BC254431D3EC5A80054AE5A /* Info.plist */,
+			);
+			name = "Test Supporting Files";
 			sourceTree = "<group>";
 		};
 		90CBC7D5ED0BD037F4791F5D /* Frameworks */ = {
@@ -336,6 +347,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BEE35DF1D3EC7F000176D83 /* Person.swift in Sources */,
 				5BC2542F1D3EC5A80054AE5A /* ViewController.swift in Sources */,
 				5BC2542D1D3EC5A80054AE5A /* AppDelegate.swift in Sources */,
 			);
